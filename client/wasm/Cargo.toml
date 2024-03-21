@@ -1,0 +1,10 @@
+[package]
+name = "wasm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+turbo = { version = "0.3.10", package = "turbo-genesis-sdk" }
+
+[lib]
+crate-type = ["cdylib"]
